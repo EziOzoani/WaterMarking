@@ -17,7 +17,7 @@ time.sleep (3)
 commercial = AudioSegment.from_mp3 (rawcom)
 watermrk = AudioSegment.from_mp3("/Users/ezi/Desktop/Audio/pydub/Test_watermark/watermarking/watermark.mp3")
 
-#Lines 10-13, 19 are optional, specific to my implementation
+#Lines 10-13, 19 are optional for when adding watermarked audio into different parts of the original audio file 
 #intro = watermrk (:2750)
 ##mrk = watermrk (2900:) 
 #output1 = intro + commercial 
